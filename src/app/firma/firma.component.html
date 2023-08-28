@@ -1,0 +1,21 @@
+<p>Firmar a continuación:</p>
+<div class="content-firm">
+     <canvas #canvas (mousedown)="mousedown($event)"
+    (mouseup)="onMouseUp()" (mouseout)="onMouseOut()"
+    (touchstart)="touchstart($event)" (touchmove)="touchmove($event)" (pointerup)="onMouseUp()"
+    (mousemove)="mousemove($event)" id="canvas"></canvas>
+    <br>
+    <div class="content-btn">
+        <button class="primary-button button" id="btnLimpiar" (click)="cleanCanvas()">Limpiar</button>
+    <button class="primary-button button" id="btnDescargar">Descargar</button>
+    <button class="primary-button button" id="btnGenerarDocumento">Pasar a documento</button>
+    </div>
+    
+</div>
+<div>
+    <!-- <iframe src="../../assets/EK202250943050.pdf" width="100%" height="500px"></iframe> -->
+    <object data="../../assets/EK202250943050.pdf" type="application/pdf" width="100%" height="800px" >
+        <p>El navegador no puede mostrar el PDF. Puedes <a href="ruta-del-archivo.pdf">descargarlo aquí</a>.</p>
+      </object>
+      
+</div>

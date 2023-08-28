@@ -1,0 +1,55 @@
+#canvas{
+    border: 1px solid black;
+}
+/* Estilos generales de los botones */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none;
+  }
+  .content-btn{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .content-firm{
+    display: grid;
+    justify-content: center;
+    grid-column: auto;
+  }
+  /* Estilos para el botón primario */
+  .primary-button {
+    background-color: #2196f3;
+    color: #fff;
+  }
+  
+  .primary-button:hover {
+    background-color: #1976d2;
+  }
+  
+  /* Estilos para el botón secundario */
+  .secondary-button {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
+  .secondary-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Estilos para el botón de acción */
+  .action-button {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .action-button:hover {
+    background-color: #388e3c;
+  }
